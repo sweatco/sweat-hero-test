@@ -1,0 +1,9 @@
+[workspace]
+
+resolver = "2"
+
+default-members = ["nft-contract"]
+members = ["integration-tests", "nft-contract"]
+
+[workspace.dependencies]
+near-sdk = "4.1.1"
